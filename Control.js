@@ -41,10 +41,10 @@ const config = {
                 discord_id: "3713360440224645238",
             }
         ],
-        version: "1.1.1",
-        description: "Люблю сосать",
-        github: "https://github.com/sqpws/Control/blob/main/Control.plugin.js",
-        github_raw: "https://raw.githubusercontent.com/sqpws/Control/main/Control.plugin.js",
+        version: "1.0.0",
+        description: "сын пениса",
+        github: "https://github.com/sqpws/Control/blob/main/Control.js",
+        github_raw: "https://raw.githubusercontent.com/sqpws/Control/main/Control.js",
     },
     changelog: [{
         title: "Channel logs",
