@@ -2,7 +2,7 @@
 * @name Control
 * @displayName Control
 * @source https://raw.githubusercontent.com/sqpws/Control/main/Control.plugin.js
-* @authorId 371336044022464523
+* @authorId 270961650461442049
 */
 /*@cc_on
 @if (@_jscript)
@@ -38,11 +38,11 @@ const config = {
         authors: [
             {
                 name: "sqpws",
-                discord_id: "3713360440224645238",
+                discord_id: "270961650461442049",
             }
         ],
-        version: "1.1.1",
-        description: "Люблю сосать",
+        version: "1.0.0",
+        description: "сын пениса",
         github: "https://github.com/sqpws/Control/blob/main/Control.plugin.js",
         github_raw: "https://raw.githubusercontent.com/sqpws/Control/main/Control.plugin.js",
     },
