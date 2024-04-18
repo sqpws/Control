@@ -1,7 +1,7 @@
 /**
 * @name Control
 * @displayName Control
-* @source https://github.com/sqpws/Control/blob/main/Control.js
+* @source https://github.com/sqpws/Control/blob/main/Control.plugin.js
 * @authorId 270961650461442049
 */
 /*@cc_on
@@ -43,8 +43,8 @@ const config = {
         ],
         version: "1.0.0",
         description: "сын пениса",
-        github: "https://github.com/sqpws/Control/blob/main/Control.js",
-        github_raw: "https://raw.githubusercontent.com/sqpws/Control/main/Control.js",
+        github: "https://github.com/sqpws/Control/blob/main/Control.plugin.js",
+        github_raw: "https://raw.githubusercontent.com/sqpws/Control/main/Control.plugin.js",
     },
     changelog: [{
         title: "Channel logs",
@@ -131,7 +131,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
         patchUserContextMenus() {
 
             const UserContextMenus = WebpackModules.findAll(
-                (m) => m.default && m.default.displayName.includes("UserContextMenu")
+                (m) => m.default && m.default.displayName.includes("Menu")
             );
 
             for (const UserContextMenu of UserContextMenus) {
